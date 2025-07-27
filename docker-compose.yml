@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Sprintrap123654 
+      POSTGRES_DB: TicTacToeDb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data 
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: TicTacToe.Api/Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Container
+      - ConnectionStrings__DefaultConnection=Host=db;Database=TicTacToeDb;Username=postgres;Password=TicTacToe
+    depends_on:
+      db:
+        condition: service_healthy 
+
+volumes:
+  postgres_data: 
