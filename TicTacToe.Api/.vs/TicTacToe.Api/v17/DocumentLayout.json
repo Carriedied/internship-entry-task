@@ -3,12 +3,14 @@
   "WorkspaceRootPath": "C:\\VS Projects\\TicTacToeGame\\TicTacToe.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B6B686B-18C8-4FD9-BAA8-B6EE6DE18601}|TicTacToe.Api.csproj|c:\\vs projects\\tictactoegame\\tictactoe.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4B6B686B-18C8-4FD9-BAA8-B6EE6DE18601}|TicTacToe.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4B6B686B-18C8-4FD9-BAA8-B6EE6DE18601}|TicTacToe.Api.csproj|c:\\vs projects\\tictactoegame\\tictactoe.api\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B6B686B-18C8-4FD9-BAA8-B6EE6DE18601}|TicTacToe.Api.csproj|solutionrelative:services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B6B686B-18C8-4FD9-BAA8-B6EE6DE18601}|TicTacToe.Api.csproj|c:\\vs projects\\tictactoegame\\tictactoe.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B6B686B-18C8-4FD9-BAA8-B6EE6DE18601}|TicTacToe.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF524AFD-F304-49CF-8260-C95B1BDD5979}|..\\TicTacToe.Tests\\TicTacToe.Tests.csproj|c:\\vs projects\\tictactoegame\\tictactoe.tests\\integrationtests\\gamescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF524AFD-F304-49CF-8260-C95B1BDD5979}|..\\TicTacToe.Tests\\TicTacToe.Tests.csproj|c:\\vs projects\\tictactoegame\\tictactoe.tests\\unittests\\gameservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +20,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 220,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,27 +32,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\VS Projects\\TicTacToeGame\\TicTacToe.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\VS Projects\\TicTacToeGame\\TicTacToe.Api\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAABeAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "C:\\VS Projects\\TicTacToeGame\\TicTacToe.Api\\Services\\GameService.cs",
+              "RelativeDocumentMoniker": "Services\\GameService.cs",
+              "ToolTip": "C:\\VS Projects\\TicTacToeGame\\TicTacToe.Api\\Services\\GameService.cs",
+              "RelativeToolTip": "Services\\GameService.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAJIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T16:20:13.462Z"
+              "WhenOpened": "2025-07-27T19:03:54.715Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\VS Projects\\TicTacToeGame\\TicTacToe.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\VS Projects\\TicTacToeGame\\TicTacToe.Api\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-27T16:19:37.906Z",
+              "DocumentIndex": 1,
+              "Title": "GamesControllerTests.cs",
+              "DocumentMoniker": "C:\\VS Projects\\TicTacToeGame\\TicTacToe.Tests\\IntegrationTests\\GamesControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\TicTacToe.Tests\\IntegrationTests\\GamesControllerTests.cs",
+              "ToolTip": "C:\\VS Projects\\TicTacToeGame\\TicTacToe.Tests\\IntegrationTests\\GamesControllerTests.cs",
+              "RelativeToolTip": "..\\TicTacToe.Tests\\IntegrationTests\\GamesControllerTests.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T19:03:10.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameServiceTests.cs",
+              "DocumentMoniker": "C:\\VS Projects\\TicTacToeGame\\TicTacToe.Tests\\UnitTests\\GameServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\TicTacToe.Tests\\UnitTests\\GameServiceTests.cs",
+              "ToolTip": "C:\\VS Projects\\TicTacToeGame\\TicTacToe.Tests\\UnitTests\\GameServiceTests.cs",
+              "RelativeToolTip": "..\\TicTacToe.Tests\\UnitTests\\GameServiceTests.cs",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAAAOEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T19:03:00.322Z",
               "EditorCaption": ""
             }
           ]
