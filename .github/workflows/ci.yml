@@ -27,19 +27,19 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    
+
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: '9.x'
-    
+
     - name: Restore dependencies
-      run: dotnet restore
-    
+      run: dotnet restore TicTacToe.Api/TicTacToe.Api.sln
+
     - name: Build
-      run: dotnet build --no-restore
-    
+      run: dotnet build TicTacToe.Api/TicTacToe.Api.sln --no-restore
+
     - name: Run tests
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test TicTacToe.Api/TicTacToe.Api.sln --no-build --verbosity normal
       env:
         ConnectionStrings__DefaultConnection: "Host=localhost;Database=TicTacToeDb;Username=postgres;Password=TicTacToe"
